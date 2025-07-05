@@ -21,23 +21,6 @@ This is a Zed editor configuration directory containing settings, keymaps, tasks
 - **PDF Forward Search**: Okular integration for LaTeX development
 - **GitHub Dark Theme**: Set as default for both light and dark modes
 
-## Common Tasks
-
-### LaTeX Development
-- Forward search to PDF is configured via tasks.json using Okular
-- TeXLab LSP handles LaTeX compilation with latexmk
-- Synctex enabled for bidirectional PDF synchronization
-
-### Configuration Management
-- settings_backup.json serves as a backup of previous settings
-- Configuration follows Zed's JSON-with-comments format
-- All paths are relative to the Zed config directory
-
-## File Structure Notes
-- Standard Zed configuration structure in ~/.config/zed/
-- Tasks use shell environment variables like $ZED_DIRNAME and $ZED_STEM
-- Configuration supports both system and custom shell specifications
-
 ## Git Commit Convention
 - Use emoji first to indicate commit type:
   - 🎉 `:tada:` - Initial commit or major feature
