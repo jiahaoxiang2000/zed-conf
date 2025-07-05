@@ -37,3 +37,16 @@ This is a Zed editor configuration directory containing settings, keymaps, tasks
 - Standard Zed configuration structure in ~/.config/zed/
 - Tasks use shell environment variables like $ZED_DIRNAME and $ZED_STEM
 - Configuration supports both system and custom shell specifications
+
+## Git Commit Convention
+- Use emoji first to indicate commit type:
+  - 🎉 `:tada:` - Initial commit or major feature
+  - ✨ `:sparkles:` - New feature
+  - 🐛 `:bug:` - Bug fix
+  - 🔧 `:wrench:` - Configuration changes
+  - 📝 `:memo:` - Documentation
+  - 🚀 `:rocket:` - Performance improvements
+  - 🎨 `:art:` - Code style/formatting
+  - ♻️ `:recycle:` - Refactoring
+  - 🔥 `:fire:` - Remove code/files
+  - 📦 `:package:` - Add dependencies/submodules
